@@ -1,0 +1,54 @@
+.divHandler{
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    border:1px solid black;
+}
+.restaurantDetails{
+    width: 100%;
+    display: flex;
+    border: 1 px solid saddlebrown;
+    border-bottom: 1px solid black;
+}
+.imageHandler{
+    width: 25%;
+    /* border: 1px solid green; */
+}
+.contentHandler{
+    width: 50%;
+    /* border: 1px solid green; */
+}
+.likeReviewHandler{
+    width: 25%;
+    /* border: 1px solid green; */
+}
+.imageHandler>img{
+    width: 100%;
+    height: 100%;
+}
+.contentHandler>h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.contentHandler,.likeReviewHandler>p{
+    margin-top: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    color : grey;
+
+}
+.orderHandler>button{
+    background-color: rgb(155, 230, 106);
+    color: green;
+    margin-left: 80%;
+}
+.rating{
+    width: 20%;
+    background-color: greenyellow;
+    text-decoration: solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    border-radius: 1px;
+}
